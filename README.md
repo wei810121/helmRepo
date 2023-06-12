@@ -51,4 +51,9 @@ helm create helm-demo
 └── values.yaml
 ```
 
+## 查看版本樣式
+> 需與 Chart.yam相同目錄
+```
+helm template .
+```
 
