@@ -25,7 +25,7 @@ $ helm repo add my-repo https://charts.bitnami.com/bitnami
 - 下載redis-cluster
 - 檔案為 : redis-cluster-8.3.8.tgz
 ``` cmd
-$ helm pull my-repo/redis-cluster
+$ helm pull my-repo/redis-cluster --version 8.3.3
 ```
 ---
 ## `B3`解壓縮檔案tar
